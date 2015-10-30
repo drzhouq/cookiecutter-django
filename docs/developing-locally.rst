@@ -7,7 +7,9 @@ The steps below will get you up and running with a local development environment
 
 * pip
 * virtualenv
-* PostgreSQL
+* PostgreSQL (both server and development library, you may want to change posgressql to trust all local connections)
+* zlib and jpeg (development library)
+
 
 First make sure to create and activate a virtualenv_, then open a terminal at the project root and install the requirements for local development::
 
